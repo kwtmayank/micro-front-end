@@ -1,0 +1,7 @@
+.link-container{
+    display: flex;
+    min-height: 10em;
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+}

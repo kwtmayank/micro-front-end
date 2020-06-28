@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="contact-card col-12" *ngIf= "profile">
+        <div class="col-12">
+            <img src={{profile.image}}/>
+        </div>
+        <div class="col-12 contact-details">
+            <span class="name">{{profile.firstName+" "+profile.lastName}}</span>
+            <span class="job">{{profile.jobTitle}}</span>
+            <span class="phone">{{profile.phone}}</span>
+            <span class="email">{{profile.email}}</span>
+        </div>
+    </div>
+</div>

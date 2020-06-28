@@ -1,0 +1,22 @@
+.contact-card{
+
+    text-align: center;
+    padding: 2em;
+
+    img{
+        width: 25%;
+    }
+
+    .contact-details{
+        display: flex;
+        flex-direction: column;
+
+        .name{
+            font-size: 2.5em;
+        }
+
+        .job, .email, .phone{
+            font-size: 1.5em;
+        }
+    }
+}
