@@ -27,7 +27,7 @@ export default function ProfileDetails({ history, location }) {
 
   function renderProfileDetailsApp() {
     const functionName = Microfrontend.camelCase(`render ${appName}`);
-    window[functionName](containerId, profileId);
+    window[functionName](containerId);
   }
 
   return (

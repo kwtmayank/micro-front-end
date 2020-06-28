@@ -27,12 +27,10 @@ export class AppConfig {
 }
 
 window.renderProfileDetails = function (
-  containerId: string,
-  profileId: string
+  containerId: string
 ) {
   let appConfig = new AppConfig();
   appConfig.containerId = containerId;
-  appConfig.profileId = profileId;
   platformBrowserDynamic([{ provide: "appConfig", useValue: appConfig }])
     .bootstrapModule(AppModule)
     .catch((err) => console.log(err));
