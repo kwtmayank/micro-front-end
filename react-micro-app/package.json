@@ -24,7 +24,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "css-loader": "^1.0.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "style-loader": "^0.23.1"
   }
 }
